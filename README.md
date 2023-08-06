@@ -1,1 +1,1 @@
-# Nolorn
+Hello everyone, this is my first landing page. In the future, it will be a full-fledged SPA application. When creating this landing, I used HTML, CSS, JS, the SwiperJS library, the code was also written according to the BEM methodology, enjoy watching :)
