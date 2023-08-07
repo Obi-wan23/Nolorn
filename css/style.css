@@ -700,7 +700,7 @@ h6 {
 }
 .categories {
 	position: relative;
-	margin-bottom: 100px;
+	margin-bottom: 65px;
 }
 .flip-buttons {
 	position: absolute;
@@ -749,6 +749,7 @@ h6 {
 .categories__carousel {
 	overflow: hidden;
 	width: 100%;
+	height: 150px;
 }
 .categories__item {
 	width: 120px;
@@ -1051,6 +1052,7 @@ h6 {
 }
 .daily-best__carousel {
 	overflow: hidden;
+	height: 525px;
 }
 .daily-best__item {
 	width: 270px;
@@ -2478,16 +2480,20 @@ h6 {
 	}
 	.slide__info {
 		position: absolute;
-		top: 0px;
-		left: 0px;
+		top: 50px;
+    left: 25px;
 		width: 320px;
+		font-size: 36px;
 	}
 	.search-box__input {
-		width: 180px;
+		width: 160px;
+	}
+	.search-box__btn {
+		top: 21px;
+		width: 90px;
 	}
 	.search-box__input[placeholder] {
-		margin-left: 5px;
-		padding-left: 15px;
+		padding-left: 5px;
 	}
 	.container-slider-main__controls {
 		left: 135px;
@@ -2584,9 +2590,13 @@ h6 {
 	.daily-best__item {
 		width: 220px;
 	}
-		.daily-best-text,
+	.daily-best-text,
 	.hot-promo-text {
 		text-align: center;
+	}
+	.daily-best__item-text,
+	.daily-best__item-btn {
+		left: 17px;
 	}
 	.hot-promo__list {
 		height: 300px;
@@ -2606,7 +2616,7 @@ h6 {
 		top: 130px;
 	}
 	.card__rating_upper {
-		margin-top: 5px;
+		margin-top: 35px;
 	}
 	.btn-price__button_wide {
 		left: 175px;
@@ -2622,11 +2632,11 @@ h6 {
 	.timer__item {
 		width: 60px;
 		height: 60px;
-		font-size: 32px;
-		padding-top: 10px;
+		font-size: 28px;
+		padding-top: 15px;
 	}
 	.timer__item::before {
-		top: 0;
+		top: 5px;
 	}
 	.top-products {
 		height: 1800px;
@@ -2639,6 +2649,9 @@ h6 {
 	.top-products__img {
 		width: 120px;
 		height: 120px;
+	}
+	.card__span {
+		font-size: 18px;
 	}
 	.card__rating_narrow, .card__add-span_narrow {
 		margin-top: 0;
@@ -2656,17 +2669,24 @@ h6 {
 	.delivery {
 		height: 480px;
 	}
+	.delivery__text {
+		font-size: 24px;
+		text-align: center;
+	}
 	.delivery__form {
-		margin-left: 5px;
+		margin-left: 10px;
+	}
+	.deilvery__span {
+		text-align: center;
+	}
+	.search-box__input_wide[placeholder] {
+		padding-left: 65px;
 	}
 	.delivery__form,
 	.deilvery__search-box,
 	.search-box__input_wide,
 	.search-box__btn_wide {
 		width: 280px;
-	}
-	.search-box__btn_wide {
-		margin-left: 5px;
 	}
 	.bottom-footer {
 		height: 115px;
